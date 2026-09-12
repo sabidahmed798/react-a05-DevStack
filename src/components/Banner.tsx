@@ -12,8 +12,10 @@ const Banner = () => {
         </h1>
         <p className="text-[18px] py-6 text-[#475569]">
           Explore frontend, backend, database, and tooling options,
-          <br /> compare them side by side, and put together the stack that fits
-          your <br /> next project.
+          <br />
+          compare them side by side, and put together the stack that fits your
+          <br />
+          next project.
         </p>
         <div>
           <button className=" ml-0 bg-gradient-to-r from-orange-500 via-rose-500 to-pink-500 text-white px-5 py-2 mx-4 rounded-xl cursor-pointer shadow-md hover:opacity-90 transition duration-300">
