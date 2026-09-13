@@ -73,8 +73,11 @@ const Technologies = () => {
       <div className="mx-auto max-w-7xl">
         {/* Section Title */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-[#0F172A]">
-            Technology Stack
+          <h2 className="text-2xl text-[#0F172A] text[36px] font-extrabold]">
+            Explore the{" "}
+            <span className="bg-gradient-to-r from-[#EF4444] via-[#DB2777] to-[#7E22CE] bg-clip-text text-transparent">
+              Technologies
+            </span>
           </h2>
 
           <p className="mt-2 text-sm text-gray-500">

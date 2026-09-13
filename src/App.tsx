@@ -1,10 +1,10 @@
-import Banner from "./components/Banner";
-import Nav from "./components/Nav";
-import Technologies from "./components/Technologies";
-
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import Banner from "./components/Banner";
+import Nav from "./components/Nav";
+import Technologies from "./components/Technologies";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -13,12 +13,14 @@ function App() {
       <Banner />
 
       <Technologies />
+      <Footer />
 
-      {/* Toast */}
+      {/* React Toastify */}
       <ToastContainer
         position="top-right"
         autoClose={2000}
-        newestOnTop
+        hideProgressBar={false}
+        newestOnTop={true}
         closeOnClick
         pauseOnHover
         draggable

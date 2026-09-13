@@ -2,7 +2,7 @@ import Logo from "../assets/Background+Shadow.png";
 
 const Nav = () => {
   return (
-    <div className="bg-[#F1F5F9]">
+    <div className="bg-white">
       <nav className="container mx-auto flex items-center justify-between px-4 py-6">
         {/* Logo and Name */}
         <div className="flex items-center">
