@@ -2,17 +2,20 @@ import Logo from "../assets/Background+Shadow.png";
 
 const Nav = () => {
   return (
-    //    logo and name
     <div className="bg-[#F1F5F9]">
-      <nav className=" flex items-center  justify-cente py-6 container mx-auto">
-        <img src={Logo} alt="" />
-        <h2 className=" font-bold text-[20px] text-[#0F172A] mx-2">
-          Dev <span className="text-[#DB2777]">Stack</span>
-        </h2>
+      <nav className="container mx-auto flex items-center justify-between px-4 py-6">
+        {/* Logo and Name */}
+        <div className="flex items-center">
+          <img src={Logo} alt="DevStack Logo" />
 
-        {/* center */}
-        <div className="flex-1 ">
-          <ul className="flex justify-center gap-4 text-[14px] font-medium cursor-pointer ">
+          <h2 className="mx-2 text-[20px] font-bold text-[#0F172A]">
+            Dev <span className="text-[#DB2777]">Stack</span>
+          </h2>
+        </div>
+
+        {/* Center */}
+        <div className="hidden flex-1 md:block">
+          <ul className="flex cursor-pointer justify-center gap-4 text-[14px] font-medium">
             <li className="text-[#DB2777]">Home</li>
             <li>Technologies</li>
             <li>Projects</li>
@@ -21,10 +24,16 @@ const Nav = () => {
           </ul>
         </div>
 
-        {/* right side */}
+        {/* Right Side */}
         <div className="flex justify-center gap-4 text-[14px]">
-          <button className="cursor-pointer">Sign In</button>
-          <button className="bg-[#D91B7E] text-white px-5 py-2 rounded-full cursor-pointer">
+          <button type="button" className="cursor-pointer">
+            Sign In
+          </button>
+
+          <button
+            type="button"
+            className="cursor-pointer rounded-full bg-[#D91B7E] px-5 py-2 text-white"
+          >
             Sign Up
           </button>
         </div>
