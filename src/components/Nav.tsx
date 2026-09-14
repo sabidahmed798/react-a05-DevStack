@@ -4,9 +4,9 @@ const Nav = () => {
   return (
     <div className="bg-white">
       <nav className="container mx-auto flex items-center justify-between px-4 py-6">
-        {/* Logo and Name */}
+        {/* Logo  */}
         <div className="flex items-center">
-          <img src={Logo} alt="DevStack Logo" />
+          <img src={Logo} alt="" className="h-[32px] w-[32px]" />
 
           <h2 className="mx-2 text-[20px] font-bold text-[#0F172A]">
             Dev <span className="text-[#DB2777]">Stack</span>

@@ -20,9 +20,8 @@ interface Technology {
 const Technologies = () => {
   const [stack, setStack] = useState<Technology[]>([]);
 
-  // =====================================
-  // ADD TO STACK
-  // =====================================
+  //  ADD TO STACK
+
   const handleAdd = (technology: Technology) => {
     const alreadyAdded = stack.some((item) => item.id === technology.id);
 
@@ -40,9 +39,8 @@ const Technologies = () => {
     toast.success(`${technology.name} added to your stack!`);
   };
 
-  // =====================================
   // REMOVE ONE
-  // =====================================
+
   const handleRemove = (id: string) => {
     const technology = stack.find((item) => item.id === id);
 
@@ -53,9 +51,8 @@ const Technologies = () => {
     }
   };
 
-  // =====================================
   // REMOVE ALL
-  // =====================================
+
   const handleRemoveAll = () => {
     if (stack.length === 0) {
       toast.warning("Your stack is already empty!");
@@ -69,7 +66,7 @@ const Technologies = () => {
   };
 
   return (
-    <section className="min-h-screen bg-white px-4 py-12 sm:px-6">
+    <section className="container mx-auto bg-white px-4 py-12 sm:px-6">
       <div className="mx-auto max-w-7xl">
         {/* Section Title */}
         <div className="mb-8">
@@ -86,9 +83,10 @@ const Technologies = () => {
         </div>
 
         {/* Cards + Sidebar */}
+
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_280px]">
           {/* Technology Cards */}
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+          <div className="   grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
             {technologies.map((technology) => (
               <TechnologyCard
                 key={technology.id}
