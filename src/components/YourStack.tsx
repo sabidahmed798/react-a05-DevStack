@@ -17,7 +17,7 @@ interface YourStackProps {
 
 const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
   return (
-    <div className="w-full h-100 rounded-2xl border border-gray-200 bg-white p-6">
+    <div className="w-auto  rounded-2xl border border-gray-200 bg-white p-6">
       {/* Heading */}
       <h2 className="text-[20px] font-bold text-[#0F172A]">Your Stack</h2>
 
@@ -50,7 +50,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
                 className="flex min-h-[66px] items-center rounded-xl border border-[#E5E7EB] bg-white px-3 py-2.5"
               >
                 {/* Icon */}
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center">
+                <div className="flex  w-10 shrink-0 items-center justify-center">
                   <img
                     src={technology.icon}
                     alt={technology.name}
@@ -75,9 +75,7 @@ const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
                   onClick={() => onRemove(technology.id)}
                   className="ml-2 flex h-8 w-8 cursor-pointer items-center justify-center text-[26px] font-light leading-none text-[#CBD5E1] transition duration-200 hover:text-red-500"
                   aria-label={`Remove ${technology.name}`}
-                >
-                  ×
-                </button>
+                ></button>
               </div>
             ))}
           </div>
