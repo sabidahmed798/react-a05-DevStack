@@ -17,7 +17,7 @@ interface YourStackProps {
 
 const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
   return (
-    <div className="w-auto  rounded-2xl border border-gray-200 bg-white p-6">
+    <div className="w-auto  rounded-2xl  bg-white p-6">
       {/* Heading */}
       <h2 className="text-[20px] font-bold text-[#0F172A]">Your Stack</h2>
 
