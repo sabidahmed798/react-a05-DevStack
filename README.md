@@ -1,75 +1,113 @@
-# React + TypeScript + Vite
+# 🚀 Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dev Stack Builder is a modern and responsive React.js web application that helps developers explore different development technologies and build their own personalized technology stack. Users can browse technologies by category, view their details, and add their favorite technologies to the **Your Stack** section.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** `https://github.com/sabidahmed798/react-a05-DevStack`
 
-## React Compiler
+🔗 **GitHub Repository:** `https://leafy-zuccutto-53e025.netlify.app/`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Project Screenshot
 
-## Expanding the ESLint configuration
+![Dev Stack Builder Screenshot](https://www.figma.com/design/8fiqEnh3H5tnLLhOjKMnGK/DevStack?node-id=0-1&p=f&t=F7E9AUUhgz1dmIs4-0)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Technologies Used
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* React.js
+* JavaScript (ES6+)
+* Tailwind CSS
+* DaisyUI
+* React Toastify
+* JSON
+* Vite
+* Git & GitHub
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Main Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* 📚 Explore different development technologies with detailed information.
+* 🧰 Build a personalized **Your Stack** by adding technologies.
+* 🚫 Prevent duplicate technologies from being added.
+* 🔔 Show toast notifications for add, remove, duplicate, and remove-all actions.
+* 📱 Fully responsive design for mobile, tablet, and desktop.
+* ⏳ Loading state while technology data is being loaded.
+* 🗂️ Technology data is loaded dynamically from a JSON file.
+* 🎨 Consistent gradient theme throughout the website.
+* ❌ Remove individual technologies or clear the entire stack.
 
+## 📦 Dependencies
+
+The main dependencies used in this project are:
+
+```bash
+react
+react-dom
+react-toastify
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Development dependencies include:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+vite
+tailwindcss
+daisyui
 ```
+
+## 💻 Run the Project Locally
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+### 2. Go to the project folder
+
+```bash
+cd dev-stack-builder
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the application
+
+Open the local URL shown in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── data/
+│   └── technologies.json
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Project Purpose
+
+This project was created to practice React fundamentals including components, props, state management, `useState`, `useEffect`, conditional rendering, array methods, JSON data handling, responsive design, and third-party npm package integration.
+
+## 👨‍💻 Author
+
+**Sabid Ahmed**
+
+Frontend Developer | React.js Learner
+
+GitHub: `https://github.com/sabidahmed798`
