@@ -110,4 +110,4 @@ This project was created to practice React fundamentals including components, pr
 
 Frontend Developer | React.js Learner
 
-GitHub: `https://github.com/sabidahmed798`
+GitHub: https://github.com/sabidahmed798
