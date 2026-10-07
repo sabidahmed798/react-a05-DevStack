@@ -4,13 +4,13 @@ Dev Stack Builder is a modern and responsive React.js web application that helps
 
 ## 🌐 Live Site
 
-🔗 **Live Demo:** `https://github.com/sabidahmed798/react-a05-DevStack`
+🔗 **Live Demo:** https://github.com/sabidahmed798/react-a05-DevStack
 
-🔗 **GitHub Repository:** `https://leafy-zuccutto-53e025.netlify.app/`
+🔗 **GitHub Repository:** https://leafy-zuccutto-53e025.netlify.app/
 
 ## 📸 Project Screenshot
 
-![Dev Stack Builder Screenshot](https://www.figma.com/design/8fiqEnh3H5tnLLhOjKMnGK/DevStack?node-id=0-1&p=f&t=F7E9AUUhgz1dmIs4-0)
+![Dev Stack Builder Screenshot] https://www.figma.com/design/8fiqEnh3H5tnLLhOjKMnGK/DevStack?node-id=0-1&p=f&t=F7E9AUUhgz1dmIs4-0
 
 ## 🛠️ Technologies Used
 
