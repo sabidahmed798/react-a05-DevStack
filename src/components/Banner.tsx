@@ -7,7 +7,10 @@ const Banner = () => {
       <div className="py-6 md:py-12">
         <h1 className="text-4xl font-extrabold leading-tight text-[#0F172A] md:text-6xl">
           Build Your Ideal <br />
-          <span className="bg-gradient-to-r from-red-500 via-fuchsia-600 to-purple-700 bg-clip-text font-bold text-transparent">
+          <span
+            className="bg-gradient-to-r from-red-500 via-fuchsia-600 to-purple-700 bg-c
+          lip-text font-bold text-transparent"
+          >
             Development Stack
           </span>
         </h1>
